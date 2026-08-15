@@ -1,0 +1,32 @@
+# =========================
+# 1. Môi trường Editor & Hệ điều hành
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# 2. Python (Cache & Môi trường ảo)
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# =========================
+# 3. C# / .NET (Thư mục biên dịch)
+# =========================
+bin/
+obj/
+*.user
+*.suo
+
+# =========================
+# 4. Dart / Flutter (Build & Cache)
+# =========================
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
