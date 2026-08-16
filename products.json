@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Cà phê Robusta Buôn Ma Thuột",
+    "category": "coffee",
+    "price": "180.000đ",
+    "origin": "Đắk Lắk",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tWO6rr9SDZqswkjAjk-Q_kwehhLkTgmKN2PAg4GRMw&s=10",
+    "desc": "Hạt cà phê Robusta nguyên chất được tuyển chọn kỹ lưỡng, hương vị đậm đà đặc trưng."
+  },
+  {
+    "id": 2,
+    "name": "Cà phê Arabica Cầu Đất",
+    "category": "coffee",
+    "price": "260.000đ",
+    "origin": "Lâm Đồng",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzX7GUzGxCVqO7UWvHZJ6rTLj28faPKuOfULVFo57rKA&s=10",
+    "desc": "Trồng ở độ cao trên 1500m, mang vị chua thanh, hậu vị ngọt ngào và hương thơm nồng nàn."
+  },
+  {
+    "id": 3,
+    "name": "Hạt Mắc ca Đắk Nông",
+    "category": "nuts",
+    "price": "220.000đ",
+    "origin": "Đắk Nông",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9P4s-gIDTWTCfv3SYtUmnA3jyf_y1bvEy1xfN47y_ow&s",
+    "desc": "Hạt sấy nứt tự nhiên, thơm béo bùi, giàu dinh dưỡng và khoáng chất có lợi cho sức khỏe."
+  },
+  {
+    "id": 4,
+    "name": "Hạt Điều Rang Muối Gia Lai",
+    "category": "nuts",
+    "price": "190.000đ",
+    "origin": "Gia Lai",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMwf9ZlJ3IPnm3FTyDtIapwUFQfPKBSAOZnMpdvhbWag&s=10",
+    "desc": "Hạt điều vỏ lụa rang củi thủ công, giòn tan, vị mằn mặn kết hợp béo ngậy."
+  },
+  {
+    "id": 5,
+    "name": "Mật Ong Rừng Kon Tum",
+    "category": "honey",
+    "price": "350.000đ",
+    "origin": "Kon Tum",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDd7QcfoIdqzCkcLqrsySpqTuvxISQ9dUeKaHEokbCw&s",
+    "desc": "Mật ong rừng nguyên chất thu hoạch từ rừng nguyên sinh Măng Đen, sánh đặc và vàng óng."
+  },
+  {
+    "id": 6,
+    "name": "Mật Ong Hoa Cà Phê",
+    "category": "honey",
+    "price": "150.000đ",
+    "origin": "Đắk Lắk",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNYnpyAQ2v0aXSmBvNKuOEn9Nu2VkVngkpRhxmAdWH7fGzRJU5JkY7gkc&s=10",
+    "desc": "Thu hoạch vào mùa hoa cà phê nở rộ, màu vàng sáng, vị ngọt thanh dịu."
+  },
+  {
+    "id": 7,
+    "name": "Bò Một Nắng Krông Pa",
+    "category": "specialty",
+    "price": "320.000đ",
+    "origin": "Gia Lai",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQElm2R2ZioLln6fONcl_yaozFACV9cVVlfBQssLd1VfQ&s=10",
+    "desc": "Thịt bò tươi ướp gia vị truyền thống, phơi qua một cái nắng gắt Krông Pa kèm muối kiến vàng."
+  },
+  {
+    "id": 8,
+    "name": "Tiêu Đen Hữu Cơ Cư Kuin",
+    "category": "specialty",
+    "price": "140.000đ",
+    "origin": "Đắk Lắk",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzmfJhedXt9iHfC9UThi6b0WCYW9Y7WQY5VULoXnrDKA&s=10",
+    "desc": "Hạt tiêu mẩy, cay nồng và thơm sâu, canh tác theo hướng hữu cơ bền vững."
+  },
+  {
+    "id": 9,
+    "name": "Sâm Dây Ngọc Linh Sấy Khô",
+    "category": "herbal",
+    "price": "450.000đ",
+    "origin": "Kon Tum",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQ_P6VgYDShUZ9e2dxT0yVRyrv25n9BiK491jcMp3Dg&s=10",
+    "desc": "Dược liệu quý giúp bồi bổ sức khỏe, tăng cường sinh lực và tăng cường miễn dịch."
+  },
+  {
+    "id": 10,
+    "name": "Trà Oolong Bảo Lộc",
+    "category": "herbal",
+    "price": "210.000đ",
+    "origin": "Lâm Đồng",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnK9EIMZnbk6JtI6S8P_FKJIge4xA7RL_a6A1Anx-H7g&s=10",
+    "desc": "Búp trà xanh tươi từ cao nguyên B'Lao, nước xanh trong, thơm dịu hương hoa mộc."
+  }
+]
