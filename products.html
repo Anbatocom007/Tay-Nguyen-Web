@@ -1,64 +1,67 @@
 <!doctype html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Danh Sách Sản Phẩm Đặc Sản - Tây Nguyên Mart</title>
-    <link rel="stylesheet" href="Css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="nav-container">
-        <a href="index.html" class="logo">🌿 TÂY NGUYÊN MART</a>
-        <ul class="nav-links">
-          <li><a href="index.html">Trang Chủ</a></li>
-          <li><a href="products.html" class="active">Sản Phẩm</a></li>
-          <li><a href="index.html#about">Giới Thiệu</a></li>
-          <li><a href="index.html#contact">Liên Hệ</a></li>
-        </ul>
-      </div>
-    </header>
 
-    <main class="container">
-      <h2 style="margin-bottom: 1.5rem; color: var(--dark-green)">
-        Danh Mục Đặc Sản Tây Nguyên
-      </h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danh Sách Sản Phẩm Đặc Sản - Tây Nguyên Mart</title>
+  <link rel="stylesheet" href="Css/style.css" />
+</head>
 
-      <!-- Phân loại sản phẩm -->
-      <div class="filter-bar">
-        <button class="filter-btn active" onclick="filterProducts('all')">
-          Tất Cả
-        </button>
-        <button class="filter-btn" onclick="filterProducts('coffee')">
-          Cà Phê
-        </button>
-        <button class="filter-btn" onclick="filterProducts('nuts')">
-          Hạt Dinh Dưỡng
-        </button>
-        <button class="filter-btn" onclick="filterProducts('honey')">
-          Mật Ong
-        </button>
-        <button class="filter-btn" onclick="filterProducts('herbal')">
-          Thảo Dược & Trà
-        </button>
-        <button class="filter-btn" onclick="filterProducts('specialty')">
-          Đặc Sản Khác
-        </button>
-      </div>
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">TÂY NGUYÊN MART</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Trang Chủ</a></li>
+        <li><a href="products.html" class="active">Sản Phẩm</a></li>
+        <li><a href="index.html#about">Giới Thiệu</a></li>
+        <li><a href="contact.html">Liên Hệ</a></li>
+      </ul>
+    </div>
+  </header>
 
-      <!-- Danh sách sản phẩm -->
-      <div id="productGrid" class="product-grid">
-        <!-- Sản phẩm load tự động từ script.js -->
-      </div>
-    </main>
+  <main class="container">
+    <h2 style="margin-bottom: 1.5rem; color: var(--dark-green)">
+      Danh Mục Đặc Sản Tây Nguyên
+    </h2>
 
-    <footer class="footer">
-      <p>
-        &copy; 2026 Đặc Sản Tây Nguyên. Kết nối và lan tỏa giá trị nông sản
-        Việt.
-      </p>
-    </footer>
+    <!-- Phân loại sản phẩm -->
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterProducts('all')">
+        Tất Cả
+      </button>
+      <button class="filter-btn" onclick="filterProducts('coffee')">
+        Cà Phê
+      </button>
+      <button class="filter-btn" onclick="filterProducts('nuts')">
+        Hạt Dinh Dưỡng
+      </button>
+      <button class="filter-btn" onclick="filterProducts('honey')">
+        Mật Ong
+      </button>
+      <button class="filter-btn" onclick="filterProducts('herbal')">
+        Thảo Dược & Trà
+      </button>
+      <button class="filter-btn" onclick="filterProducts('specialty')">
+        Đặc Sản Khác
+      </button>
+    </div>
 
-    <script src="script.js"></script>
-  </body>
+    <!-- Danh sách sản phẩm -->
+    <div id="productGrid" class="product-grid">
+      <!-- Sản phẩm load tự động từ script.js -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>
+      &copy; 2026 Đặc Sản Tây Nguyên. Kết nối và lan tỏa giá trị nông sản
+      Việt.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>

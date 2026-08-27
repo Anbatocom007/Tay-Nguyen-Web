@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liên Hệ - Tây Nguyên Mart</title>
+  <link rel="stylesheet" href="Css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo"> TÂY NGUYÊN MART</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Trang Chủ</a></li>
+        <li><a href="products.html">Sản Phẩm</a></li>
+        <li><a href="index.html#about">Giới Thiệu</a></li>
+        <li><a href="contact.html" class="active">Liên Hệ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Banner Header -->
+    <section class="hero" style="padding: 3rem 2rem; margin-bottom: 2rem;">
+      <h1>LIÊN HỆ VỚI TÂY NGUYÊN MART</h1>
+      <p>Chúng tôi luôn sẵn sàng lắng nghe, tư vấn và hỗ trợ quý khách hàng 24/7</p>
+    </section>
+
+    <!-- Main Contact Layout -->
+    <div class="contact-page-layout">
+      <!-- Direct Info Panel -->
+      <div class="contact-info-panel">
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div class="info-details">
+            <h4>Trụ Sở Chính</h4>
+            <p>123 Đường Lê Duẩn, TP. Buôn Ma Thuột, Tỉnh Đắk Lắk</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <div class="info-details">
+            <h4>Hotline Tư Vấn</h4>
+            <p><a href="tel:0987654321">0987.654.321</a> (Sỉ & Đại Lý)</p>
+            <p><a href="tel:0912345678">0912.345.678</a> (Lẻ & CSKH)</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">✉️</div>
+          <div class="info-details">
+            <h4>Email Liên Hệ</h4>
+            <p><a href="mailto:lienhe@taynguyenmart.vn">lienhe@taynguyenmart.vn</a></p>
+            <p><a href="mailto:support@taynguyenmart.vn">support@taynguyenmart.vn</a></p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">⏰</div>
+          <div class="info-details">
+            <h4>Giờ Phục Vụ</h4>
+            <p>Thứ 2 - Chủ Nhật: 07:30 - 21:00</p>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">(Hỗ trợ tư vấn online 24/7)</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">🌐</div>
+          <div class="info-details">
+            <h4>Kênh Mạng Xã Hội</h4>
+            <div class="social-links">
+              <a href="#" class="social-btn">Facebook</a>
+              <a href="#" class="social-btn">Zalo OA</a>
+              <a href="#" class="social-btn">YouTube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form Panel -->
+      <div class="contact-form-panel">
+        <h3>Gửi Lời Nhắn Cho Chúng Tôi</h3>
+        <p>Hãy điền thông tin bên dưới, nhân viên Tây Nguyên Mart sẽ phản hồi trong vòng 30 phút.</p>
+
+        <div id="successAlert" class="alert-success">
+          ✅ <strong>Cảm ơn bạn!</strong> Yêu cầu liên hệ đã được gửi thành công. Chúng tôi sẽ gọi lại cho bạn ngay.
+        </div>
+
+        <form id="contactForm" onsubmit="handleContactSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullname">Họ và Tên <span style="color:red">*</span></label>
+              <input type="text" id="fullname" placeholder="Nguyễn Văn A" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Số Điện Thoại <span style="color:red">*</span></label>
+              <input type="tel" id="phone" placeholder="0901 234 567" required />
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-top: 1rem;">
+            <label for="email">Địa Chỉ Email</label>
+            <input type="email" id="email" placeholder="example@domain.com" />
+          </div>
+
+          <div class="form-group" style="margin-top: 1rem;">
+            <label for="subject">Chủ Đề Cần Hỗ Trợ</label>
+            <select id="subject">
+              <option value="tu-van">Tư vấn chọn mua sản phẩm</option>
+              <option value="dai-ly">Đăng ký làm Đại lý / Nguồn sỉ</option>
+              <option value="giao-hang">Thắc mắc về vận chuyển & đơn hàng</option>
+              <option value="gop-y">Góp ý chất lượng dịch vụ</option>
+              <option value="khac">Yêu cầu khác</option>
+            </select>
+          </div>
+
+          <div class="form-group" style="margin-top: 1rem;">
+            <label for="message">Nội Dung Chi Tiết <span style="color:red">*</span></label>
+            <textarea id="message" rows="5" placeholder="Nhập câu hỏi hoặc nội dung bạn cần hỗ trợ..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn"
+            style="border: none; cursor: pointer; width: 100%; margin-top: 1.5rem; font-size: 1rem;">
+            🚀 Gửi Thông Tin Liên Hệ
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- System Branches -->
+    <section class="branches-section">
+      <h2 style="color: var(--dark-green); text-align: center;">Hệ Thống Chi Nhánh & Showroom</h2>
+      <div class="branches-grid">
+        <div class="branch-card">
+          <h4>📍 TP. Buôn Ma Thuột</h4>
+          <p>123 Lê Duẩn, Phường Tự An</p>
+          <p>📞 0987.654.321</p>
+        </div>
+        <div class="branch-card">
+          <h4>📍 TP. Pleiku (Gia Lai)</h4>
+          <p>45 Trần Phú, Phường Diên Hồng</p>
+          <p>📞 0987.654.322</p>
+        </div>
+        <div class="branch-card">
+          <h4>📍 TP. Đà Lạt (Lâm Đồng)</h4>
+          <p>88 Ba Tháng Hai, Phường 1</p>
+          <p>📞 0987.654.323</p>
+        </div>
+        <div class="branch-card">
+          <h4>📍 TP. Hồ Chí Minh</h4>
+          <p>256 Nguyễn Thị Minh Khai, Q.3</p>
+          <p>📞 0987.654.324</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Maps Location Map -->
+    <section class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15563.856950346855!2d108.0378036!3d12.6796443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7d6928e4693%3A0xbc4e5e4d9c7bb0b2!2zVFAuIEJ1w7RuIE1hIFRodeG7mXQsIMSQ4bqvayBM4bqvaw!5e0!3m2!1svi!2s!4v1700000000000!5m2!1svi!2s"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="faq-section">
+      <h2 style="color: var(--dark-green); margin-bottom: 1.5rem;">Câu Hỏi Thường Gặp (FAQ)</h2>
+      <div class="faq-item">
+        <div class="faq-question">1. Tây Nguyên Mart có giao hàng toàn quốc không? <span>+</span></div>
+        <div class="faq-answer">Có, chúng tôi hỗ trợ giao hàng tận nơi trên 63 tỉnh thành toàn quốc thông qua các đơn vị
+          vận chuyển uy tín như Viettel Post, GHTK, EMS...</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">2. Làm thế nào để mua sỉ hoặc ký hợp đồng đại lý? <span>+</span></div>
+        <div class="faq-answer">Bạn có thể chọn mục "Đăng ký làm Đại lý / Nguồn sỉ" ở form liên hệ phía trên hoặc gọi
+          trực tiếp hotline 0987.654.321 để nhận bảng giá sỉ chi tiết.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">3. Sản phẩm nông sản có cam kết nguồn gốc chuẩn Tây Nguyên không? <span>+</span></div>
+        <div class="faq-answer">100% sản phẩm được thu hoạch trực tiếp từ các hợp tác xã và nông hộ uy tín tại Đắk Lắk,
+          Gia Lai, Lâm Đồng, Kontum và Đắk Nông với đầy đủ chứng nhận VietGAP / OCOP.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Đặc Sản Tây Nguyên. Kết nối và lan tỏa giá trị nông sản Việt.</p>
+  </footer>
+
+  <script>
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const alertBox = document.getElementById('successAlert');
+      const form = document.getElementById('contactForm');
+
+      alertBox.style.display = 'block';
+      form.reset();
+
+      window.scrollTo({
+        top: alertBox.offsetTop - 120,
+        behavior: 'smooth'
+      });
+
+      setTimeout(() => {
+        alertBox.style.display = 'none';
+      }, 5000);
+    }
+  </script>
+</body>
+
+</html>
